@@ -5,6 +5,7 @@ Autoencoder which acts same as traditional 3 bit encoder
 
 Following is a network representation.
 
+![autoencoder_diagram](https://user-images.githubusercontent.com/77431192/117440740-6c694100-af6f-11eb-8169-47354897c160.png)
 ## 1. Prepare Data
 Data are already saved as 'data.pickle'. The file comprises 8 kinds of one-hot encoded 8 bit data, number of data is 1000 for each kind. 
 (details are below)
