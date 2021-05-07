@@ -8,9 +8,6 @@ import sys
 
 import torch.nn.functional as F
 
-""" 
-metric = correlation
-"""
 class AutoencoderNet(nn.Module):
     def __init__(self):
         super(AutoencoderNet,  self).__init__()
