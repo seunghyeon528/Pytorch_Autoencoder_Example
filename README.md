@@ -60,4 +60,4 @@ Test results are as follows.
 
 ![test_results_2](https://user-images.githubusercontent.com/77431192/117442294-86a41e80-af71-11eb-8239-98d3e71be439.PNG)
 
-Observing Process results, although the order is different, the model seems acting similarly with traditional encoder in that each one-hot encocoded data corresponds to one of the 8 representations which can be obtained using 3-bit. 
+Observing Process results, although the order is different, the model seems acting similarly to traditional encoder in that each one-hot encocoded data corresponds to one of the 8 representations which can be obtained using 3-bit. 
