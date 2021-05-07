@@ -2,7 +2,7 @@
 Autoencoder which acts same as traditional 3 bit encoder
 
 ## 0. Experiment Motivation
-While taking a class EEE6431(Neural Networks), professor mentioned that autoencoder with one hidden layer which traiend based on deep-learning techniques acts exactly same as 3 bit traditional encoder.
+While taking a class EEE6431(Neural Networks), professor mentioned that if you train simple autoencoder with one hidden layer using modern deep-learning techniques,  the model will act exatcly same as 3 bit traditional encoder. 
 
 Following is traditional 3-bit encoder truth table.
 |input|output|
@@ -60,3 +60,4 @@ Test results are as follows.
 
 ![test_results_2](https://user-images.githubusercontent.com/77431192/117442294-86a41e80-af71-11eb-8239-98d3e71be439.PNG)
 
+Observing Process results, although the order is different from traditional encoder, the model seems acting similarly with traditional encoder in that each one-hot encocoded data corresponds to one of the 8 representations can be obtained using 3-bit. 
